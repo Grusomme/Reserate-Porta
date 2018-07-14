@@ -1,5 +1,7 @@
 CREATE DATABASE Balder;
 
+-- Not sure how we wanna deal with passwords yet, so not putting anything in at the moment. 
+
 CREATE TABLE Lock (
     Created_By int (20) NOT NULL,
     Created DATETIME NOT NULL,
