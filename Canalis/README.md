@@ -13,7 +13,7 @@ VirtualBox and Vagrant installed
 Comands you need to run are in <b>bold</b><br>
 <b>vagrant up</b> - starts the virtual machine<br>
 <b>vagrant ssh</b> - SSH into the virtual machine<br>
-<b>mkvirtualenv Canalis --python=python3</b> - creates a virtual enviorment on the virtual machine<br>
+<b>mkvirtualenv canalis --python=python3</b> - creates a virtual enviorment on the virtual machine<br>
 <b>pip install django==1.11</b><br>
 <b>pip install djangorestframework=3.6.2</b><br>
 <b>echo "cd /vagrant/src/canalis_project" >> ~/.bashrc</b> - places you in the correct folder when you conect via SSH<br>
