@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .models import Test_door
+from . import models
 
 # Add Test_door to admin site for managment
-admin.site.register(Test_door)
+admin.site.register(models.TestDoor)

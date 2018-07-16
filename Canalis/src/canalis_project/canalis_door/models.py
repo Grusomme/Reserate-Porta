@@ -1,8 +1,9 @@
 from django.db import models
 
 # Create your models here.
-class Test_door(models.Model):
+class TestDoor(models.Model):
     """
     A test model for testing the api
     """
-    door_is_locked = models.BooleanField(default=False)
+    name = models.CharField(max_length=15, default = '')
+    doorIsLocked = models.BooleanField(default=False)
