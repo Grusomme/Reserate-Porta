@@ -5,4 +5,4 @@ class TestDoorSerializer(serializers.ModelSerializer):
     
     class Meta:
         model = models.TestDoor
-        fields = ('name', 'doorIsLocked')
+        fields = ('id' , 'name', 'doorIsLocked')
