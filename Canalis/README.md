@@ -23,7 +23,7 @@ Comands you need to run are in <b>bold</b><br>
 <b>vagrant up</b> - starts the virtual machine<br>
 <b>vagrant ssh</b> - SSH into the virtual machine<br>
 <b>workon Canalis</b> - select the vitual enviorment<br>
-<b>python manage.py runserver 127.0.0.1:1234</b> - start Django development server
+<b>python manage.py runserver 0.0.0.0:8888</b> - start Django development server
 
 <h2>For shuting down</h2>
 <b>exit</b><br>
