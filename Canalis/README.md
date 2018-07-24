@@ -3,7 +3,7 @@
 Web application for sending control messages to a background server
 
 <h2>Vesions used</h2>
-Django 1.11
+Django 1.11<br>
 Django REST framework 3.6.2
 
 <h2>Prerequisite</h2>
