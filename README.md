@@ -1,2 +1,2 @@
 # Reserate-Porta
-Simple Web based program to open a physical doo.
+Simple Web based program to open a physical door.
