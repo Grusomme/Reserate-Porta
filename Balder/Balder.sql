@@ -7,7 +7,7 @@ CREATE TABLE Lock (
     Created DATETIME NOT NULL,
     UpdatedBy int (20) NOT NULL,
     Updated DATETIME NOT NULL,
-    ID int (20) UNIQUE NOT NULL,
+    ID int (20) UNIQUE NOT NULL AUTO_INCREMENT,
     Name VARCHAR (255),
     Description VARCHAR (255),
     PRIMARY KEY (ID),
@@ -21,7 +21,7 @@ CREATE TABLE User (
     Created DATETIME NOT NULL,
     UpdatedBy int (20) NOT NULL,
     Updated DATETIME NOT NULL,
-    ID int (20) UNIQUE NOT NULL,
+    ID int (20) UNIQUE NOT NULL AUTO_INCREMENT,
     Name VARCHAR (50) NOT NULL,
     Lastname VARCHAR (50) NOT NULL,
     Phone int (8) NOT NULL,
@@ -32,12 +32,14 @@ CREATE TABLE User (
 
 );
 
+
+-- Gonna remake to make UserID + LockID as Prim key so we dont get replicas.
 CREATE TABLE LockUser (
     CreatedBy int (20) NOT NULL,
     Created DATETIME NOT NULL,
     UpdatedBy int (20) NOT NULL,
     Updated DATETIME NOT NULL,
-    ID int (20) UNIQUE NOT NULL,
+    ID int (20) UNIQUE NOT NULL AUTO_INCREMENT,
     UserID int (20) NOT NULL,
     LockID int (20) NOT NULL
     PRIMARY KEY (ID),
